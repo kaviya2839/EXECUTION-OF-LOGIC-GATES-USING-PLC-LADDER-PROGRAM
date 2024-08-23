@@ -18,11 +18,11 @@ Power Supply - Appropriate power supply for PLC and peripherals.
 Logic gates are the fundamental building blocks of digital circuits, and they process binary inputs to produce a binary output. In PLC programming, these logic gates can be implemented using ladder logic, which is a graphical programming language resembling electrical relay logic.
 
 ## Basic Logic Gates:
-#### AND Gate:</br>
+### AND Gate:</br>
 Function: Outputs HIGH only when all inputs are HIGH.</br>
 Ladder Logic: Represented by two or more normally open contacts in series.</br>
 
-#### OR Gate:</br>
+### OR Gate:</br>
 Function: Outputs HIGH when at least one input is HIGH.</br>
 Ladder Logic: Represented by two or more normally open contacts in parallel.</br>
 
@@ -38,12 +38,26 @@ Ladder Logic: An AND gate followed by a NOT gate.</br>
 Function: Outputs LOW when at least one input is HIGH.</br>
 Ladder Logic: An OR gate followed by a NOT gate.</br>
 
-#### XOR Gate:</br>
+### XOR Gate:</br>
 Function: Outputs HIGH when an odd number of inputs are HIGH.</br>
 Ladder Logic: Represented by a combination of AND, OR, and NOT gates.</br>
 
 # Truth Tables:
- 
+### AND GATE:
+![image](https://github.com/user-attachments/assets/8e49ef57-503e-41ee-a950-21ac8b4e6908)
+
+### OR GATE:
+![image](https://github.com/user-attachments/assets/aaf7b0db-8611-4e10-96a9-7b65dbd07e5b)
+
+### NOT GATE:
+![image](https://github.com/user-attachments/assets/b7f525d0-b8c5-469f-ac20-16cf47331959)
+
+### NAND GATE:
+![image](https://github.com/user-attachments/assets/fb0c5543-7493-47ec-bda9-606bf92b7a5a)
+
+### NOR GATE:
+ ![image](https://github.com/user-attachments/assets/4799000e-34ea-42ef-8046-5214184bf6b5)
+
 # Procedure:
 #### Setup the PLC Programming Environment:
 Connect the PLC to the computer system and launch the PLC programming software.
@@ -84,19 +98,19 @@ Toggle the input states and observe the output corresponding to each gate’s tr
 
 # SIMULATION RESULTS 
 ### AND GATE:
-<img src="https://github.com/user-attachments/assets/2f6cbcb8-732d-4f57-b88c-6417a8a4f82c" width="500" height="300" />
+![image](https://github.com/user-attachments/assets/2f6cbcb8-732d-4f57-b88c-6417a8a4f82c)
 
 ### OR GATE:
-<img src="https://github.com/user-attachments/assets/ba504b79-a173-4f03-b1c1-0303a5b3e03a" width="500" height="300" />
+![image](https://github.com/user-attachments/assets/ba504b79-a173-4f03-b1c1-0303a5b3e03a)
 
 ### NOT GATE:
-<img src="https://github.com/user-attachments/assets/6732a4b3-b79f-4976-ac04-ec5650af37ec" width="500" height="300" />
+![image](https://github.com/user-attachments/assets/6732a4b3-b79f-4976-ac04-ec5650af37ec)
 
 ### NAND GATE:
-<img src="https://github.com/user-attachments/assets/16f56012-8cc7-4107-bca1-02530c986d67" width="500" height="300" />
+![image](https://github.com/user-attachments/assets/16f56012-8cc7-4107-bca1-02530c986d67)
 
 ### NOR GATE:
-<img src="https://github.com/user-attachments/assets/6ea8863d-67f8-4bf4-bf8d-4200bac9847d" width="500" height="300" />
+![image](https://github.com/user-attachments/assets/6ea8863d-67f8-4bf4-bf8d-4200bac9847d)
 
 ## Results:
 The ladder logic programs for each logic gate were successfully implemented and simulated.
