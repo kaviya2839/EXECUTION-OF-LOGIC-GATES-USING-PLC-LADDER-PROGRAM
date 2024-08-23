@@ -1,4 +1,5 @@
 # EX-01 EXECUTION OF LOGIC GATES USING PLC LADDER PROGRAM
+
 ### NAME: KAVIYA SHREE S
 ### REG.NO: 212222110018
  
@@ -42,6 +43,8 @@ Ladder Logic: An OR gate followed by a NOT gate.</br>
 Function: Outputs HIGH when an odd number of inputs are HIGH.</br>
 Ladder Logic: Represented by a combination of AND, OR, and NOT gates.</br>
 
+
+ 
 # Truth Tables:
 ### AND GATE:
 ![image](https://github.com/user-attachments/assets/8e49ef57-503e-41ee-a950-21ac8b4e6908)
